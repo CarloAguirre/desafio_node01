@@ -29,7 +29,7 @@ const leer  = ()=>{
     const leerCitas = fs.readFileSync('citas.JSON', 'utf-8')
 
     JSON.parse(leerCitas).forEach(paciente => {
-        console.log(paciente) // el desafio no deja claro en formato se debe presentar esta info en consola, que atento al feedback.
+        console.log(paciente) // el desafio no deja claro en que formato se debe presentar esta info en consola, quedo atento al feedback.
     });
 }
 
